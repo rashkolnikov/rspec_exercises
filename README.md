@@ -1,12 +1,12 @@
 In this repository you will find exercises programmed in Ruby that solve test cases that are intended to demonstrate some specific behaviors.
 
-### RSPEC
+### *RSPEC*
 
 RSPEC is a tool to automate our testing and development process. Testing is important because it allows us to verify our code.
 
 RSPEC complements well with the TDD strategy.
 
-### TDD
+### *TDD*
 
 _TDD (Test Driven Development)_ is a strategy that allows developing a program through test cases.
 
@@ -25,7 +25,7 @@ Changes to program are made until the program passes the test cases. Here is an 
 
 Once we complete all 4 steps, we have completed 1 iteration of TDD.
 
-### RSpec use 
+### *RSpec use* 
 
 To use RSpec, we'll need to structure our project files in a certain way. 
 We separate our implementation code files from the testing files using a _/lib_ and _/spec_ folder respectively.
@@ -40,6 +40,8 @@ _/example_project
       
 To use RSpec, we must follow this structure. We need folders with the literal names _lib_ and _spec_ as direct children of the example_project folder. 
 The test files inside of the /spec folder must end with *_spec.rb*
+
+### *Installations*
 
 In order to run the tests, you must have bundler installed. To do it run the following code:
 
