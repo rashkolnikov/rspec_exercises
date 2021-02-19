@@ -33,13 +33,13 @@ We separate our implementation code files from the testing files using a __/lib_
 /example_project
     lib
 
-/example_project
-lib
-rspec_exercise1.
-rbrspec_exercise2.rb
-spec
-rspec_exercise1_spec.rb
-rspec_exercise2_spec.rb
+-/example_project
+    -lib
+        -rspec_exercise1.
+        -rbrspec_exercise2.rb
+    -spec
+        -rspec_exercise1_spec.rb
+        -rspec_exercise2_spec.rb
       
 To use RSpec, we must follow this structure. We need folders with the literal names __lib__ and __spec__ as direct children of the __example_project folder__. 
 The test files inside of the __/spec folder__ must end with __spec.rb__
