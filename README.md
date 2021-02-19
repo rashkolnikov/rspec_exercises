@@ -30,16 +30,16 @@ Once we complete all 4 steps, we have completed 1 iteration of TDD.
 To use RSpec, we'll need to structure our project files in a certain way. 
 We separate our implementation code files from the testing files using a __/lib__ and __/spec__ folder respectively.
 
-__/example_project
+/example_project
     lib
         rspec_exercise1.
         rbrspec_exercise2.rb
     spec
         rspec_exercise1_spec.rb
-        rspec_exercise2_spec.rb__
+        rspec_exercise2_spec.rb
       
-To use RSpec, we must follow this structure. We need folders with the literal names __lib__ and __spec__ as direct children of the example_project folder. 
-The test files inside of the /spec folder must end with __spec.rb__
+To use RSpec, we must follow this structure. We need folders with the literal names __lib__ and __spec__ as direct children of the __example_project folder__. 
+The test files inside of the __/spec folder__ must end with __spec.rb__
 
 ### **Installations**
 
