@@ -31,6 +31,9 @@ To use RSpec, we'll need to structure our project files in a certain way.
 We separate our implementation code files from the testing files using a __/lib__ and __/spec__ folder respectively.
 
 /example_project
+    lib
+
+/example_project
 lib
 rspec_exercise1.
 rbrspec_exercise2.rb
